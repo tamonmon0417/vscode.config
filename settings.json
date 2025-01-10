@@ -1,0 +1,171 @@
+{
+  "window.title": "${activeEditorLong}",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontFamily": "Source Code Pro",
+  "editor.rulers": [
+    120
+  ],
+  "files.autoSave": "onFocusChange",
+  "editor.cursorStyle": "block",
+  "editor.scrollBeyondLastLine": false,
+  "workbench.settings.editor": "ui",
+  "editor.renderWhitespace": "boundary",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.alwaysShowStatus": true,
+  "eslint.enable": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "window.openFilesInNewWindow": "on",
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2,
+  "sync.forceUpload": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "solid",
+  "editor.fontWeight": "400",
+  "window.openFoldersInNewWindow": "on",
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#e8f2ef48",
+    "titleBar.activeBackground": "#528584",
+    "sideBar.foreground": "#ffffffeb",
+    "editorLineNumber.foreground": "#ffffff7d",
+    "tab.activeBackground": "#3f4c5c",
+    "tab.activeBorder": "#ECEFF4",
+    "tab.inactiveForeground": "#FFFFFF",
+    "editorOverviewRuler.modifiedForeground": "#88C0D0",
+    "editorOverviewRuler.addedForeground": "#88C0D0",
+    "editorOverviewRuler.deletedForeground": "#88C0D0",
+    "editorOverviewRuler.errorForeground": "#BF616A",
+    "editorOverviewRuler.warningForeground": "#EBCB8B"
+  },
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.tabSizing": "shrink",
+  "files.associations": {
+    "Vagrantfile": "ruby",
+    "*.tpl": "html"
+  },
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never"
+  },
+  "workbench.tree.indent": 20,
+  "editor.minimap.maxColumn": 0,
+  "workbench.tree.renderIndentGuides": "always",
+  "explorer.autoReveal": "focusNoScroll",
+  "cSpell.language": "en,en-GB",
+  "cSpell.enableFiletypes": [
+    "!javascript"
+  ],
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": true,
+  // php
+  "phpfmt.indent_with_space": 4,
+  "phpfmt.enable_auto_align": true,
+  "phpcs.executablePath": "/Users/tamon.c.okamoto/.composer/vendor/squizlabs/php_codesniffer/bin/phpcs",
+  "phpcs.standard": "PSR1",
+  "phpfmt.detect_indent": true,
+  "phpfmt.psr1": true,
+  "editor.fontSize": 13,
+  // dart
+  "dart.lineLength": 80,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  "explorer.confirmDelete": false,
+  "dart.debugExternalLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "dart.openDevTools": "flutter",
+  // "[jsonc]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "prettier.semi": false,
+  // "prettier.singleQuote": true,
+  // "prettier.prettierPath": "./node_modules/prettier",
+  "debug.allowBreakpointsEverywhere": true,
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "cmake.configureOnOpen": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "dart.debugExternalPackageLibraries": false,
+  // "css.lint.unknownAtRules": "ignore", // ignore Tailwind directives "Unknown at rule" errors in globals.css
+  // added to stop expanding node_modules dir.
+  "files.exclude": {
+    "**/node_modules/": true
+  },
+  "editor.stickyScroll.enabled": true,
+  // "jest.autoRun": {
+  //   "watch": false,
+  //   "onSave": "test-file"
+  // },
+  "jest.jestCommandLine": "yarn run test",
+  "jest.showTerminalOnLaunch": false,
+  "jest.coverageColors": null,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  // https://github.com/prettier/prettier-vscode/issues/2999#issuecomment-1537074900
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "workbench.colorTheme": "Nord",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme"
+}
