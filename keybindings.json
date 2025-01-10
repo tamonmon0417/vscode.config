@@ -1,0 +1,41 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "shift+cmd+[Equal]",
+    "command": "workbench.action.zoomIn"
+  },
+  {
+    "key": "shift+cmd+[Minus]",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "shift+cmd+[Minus]",
+    "command": "workbench.action.zoomOut"
+  },
+  {
+    "key": "cmd+[Minus]",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+cmd+[BracketLeft]",
+    "command": "workbench.action.terminal.resizePaneLeft",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+cmd+left",
+    "command": "-workbench.action.terminal.resizePaneLeft",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+cmd+[",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+cmd+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "-workbench.action.previousEditor"
+  }
+]
