@@ -1,0 +1,50 @@
+{
+  "workbench.startupEditor": "none",
+  "window.openFoldersInNewWindow": "on",
+  "editor.scrollBeyondLastLine": false,
+
+  // Color, Font, and Theme
+  "editor.fontFamily": "Source Code Pro",
+  "workbench.tree.indent": 15,
+  "workbench.colorTheme": "Nord",
+  "editor.minimap.enabled": false,
+
+  // Code Formatter
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.untrustedFiles": "open",
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "extensions.ignoreRecommendations": true,
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": false,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+  "editor.tabSize": 2,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontSize": 13,
+  "cSpell.userWords": ["Bcom", "Freshchat", "freshdesk", "Tabist"],
+  "playwright.reuseBrowser": true,
+  "playwright.showTrace": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "typescriptreact": true
+  },
+  "jest.runMode": "on-demand",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "database-client.autoSync": true
+}
