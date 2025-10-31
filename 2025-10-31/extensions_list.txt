@@ -1,0 +1,23 @@
+$ code --list-extensions
+arcticicestudio.nord-visual-studio-code
+bradlc.vscode-tailwindcss
+charliermarsh.ruff
+cweijan.dbclient-jdbc
+cweijan.vscode-postgresql-client2
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+github.copilot
+github.copilot-chat
+ms-playwright.playwright
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+orta.vscode-jest
+pkief.material-icon-theme
+ritwickdey.liveserver
+streetsidesoftware.code-spell-checker
+vitest.explorer
+wix.vscode-import-cost
+yzhang.markdown-all-in-one
